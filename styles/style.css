@@ -1,74 +1,73 @@
 /* место для вашего кода */
 .container {
-    display: grid;
-    max-width: 1440px;
-    min-height: 100vh;
-    margin: 0 auto;
-    background-color: #ffffff;
-    grid-template-rows: auto minmax(300px, 1fr) auto;
+  display: grid;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+  grid-template-rows: auto minmax(300px, 1fr) auto;
 }
 
 .header {
-    font-size: 18px;
-    font-weight: 400;
-    display: grid;
-    align-items: center;
-    padding: 92px 49px 96px 51px;
-    grid-template-columns: 1fr 148px 1fr;
+  font-size: 18px;
+  font-weight: 400;
+  display: grid;
+  align-items: center;
+  padding: 92px 49px 96px 51px;
+  grid-template-columns: 1fr 148px 1fr;
 }
 
 .header__menu {
-    align-self: center;
+  align-self: center;
 }
 
 .header__links-list {
-    display: flex;
-    list-style: circle inside;
-    text-align: center;
-    white-space: nowrap;
-    gap: 0 33px;
+  display: flex;
+  list-style: circle inside;
+  text-align: center;
+  white-space: nowrap;
+  gap: 0 33px;
 }
 
 .header__links-list-item {
-    list-style: circle;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
-    list-style: none;
+  list-style: none;
 }
 
 .header__link {
-  text-decoration:underline;  /* подчеркивание */
+  text-decoration: underline; /* подчеркивание */
   text-underline-offset: 4px; /* Смещаем подчёркивание на 4 пикселей вниз */
 }
 
 .header__link_active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header__logo {
-    display: block; /* т.к это ссылка, он не воспринимает ширину, отступы это строка. Поэтому мы дали дисплей, чтобы он реагировал на размеры */
-    width: 148px;
-    height: 105px;
+  display: block; /* т.к это ссылка, он не воспринимает ширину, отступы это строка. Поэтому мы дали дисплей, чтобы он реагировал на размеры */
+  width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .header__address {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .address {
-    font-style: normal;
-    line-height: 24px;
-    max-width: 240px;
-    text-underline-position: under;
+  font-style: normal;
+  line-height: 24px;
+  max-width: 240px;
+  text-underline-position: under;
 }
-
 
 .overlay {
   position: absolute;
@@ -277,7 +276,7 @@
 }
 
 .footer__address {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .footer__menu {
@@ -322,4 +321,3 @@
 .footer__social-icon {
   height: inherit;
 }
-
