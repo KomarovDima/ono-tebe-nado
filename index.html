@@ -6,8 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body>
+   <div class="container">
+    <header class="header">       <!--Вся шапка-->
+      <nav class="header__menu">  <!--контейнер навигации-->
+        <ul class="header__links-list">  <!--список ссылок-->
+          <li class="header__links-list-item header__links-list-item_no-bullit">  <!--без кружочка-->
+            <a class="header__link_active">главная</a> <!--Активная ссылка -->
+          </li>
+          <li class="header__links-list-item"> <!--пункт списка ссылок-->
+            <a class="header__link">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link">об аукционе</a>
+          </li>
+         </ul>
+      </nav>
+      <a class="header__logo">
+        <img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип проекта оно тебе надо"
+        />
+      </a>
+      <div class="header__address">
+        <address class="address">
+            <a href="tel:+99995555555">+9 999 555 5555</a><br>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+            <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>
+      </div>
+    </header>
+    <main>
+      <section class="cover"></section>
+      <section class="lots"></section>
+      <section class="about"></section>
+    </main>
+    <footer class="footer"></footer>
+    </div>>
+  </body>
 </html>
