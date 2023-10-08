@@ -14,7 +14,7 @@
   display: grid;
   align-items: center;
   padding: 92px 49px 96px 51px;
-  grid-template-columns: 1fr 148px 1fr;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__menu {
@@ -276,7 +276,7 @@
 }
 
 .footer__address {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .footer__menu {
